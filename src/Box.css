@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #74ebd5, #4facfe);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.A {
+  width: 380px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.A1 {
+  margin-bottom: 25px;
+}
+
+.A1 h2 {
+  color: #1677ff;
+  font-size: 28px;
+}
+
+.A2 {
+  width: 100%;
+  padding: 13px 15px;
+  border: 2px solid #d6e4ff;
+  border-radius: 10px;
+  outline: none;
+  font-size: 16px;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+.A2:focus {
+  border-color: #1677ff;
+  box-shadow: 0 0 8px rgba(22, 119, 255, 0.2);
+}
+
+.A3 {
+  width: 100%;
+  padding: 13px;
+  border: none;
+  border-radius: 10px;
+  background: #1677ff;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.A3:hover {
+  background: #0958d9;
+  transform: translateY(-2px);
+}
+
+.A > div:last-child {
+  margin-top: 25px;
+  padding: 20px;
+  background: linear-gradient(135deg, #e6f7ff, #f0f5ff);
+  border-radius: 15px;
+}
+
+.A > div:last-child h3 {
+  color: #1677ff;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.A > div:last-child p {
+  color: #444;
+  font-size: 16px;
+  margin: 10px 0;
+  padding: 8px;
+  background: white;
+  border-radius: 8px;
+}
